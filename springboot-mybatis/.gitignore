@@ -1,32 +1,53 @@
-HELP.md
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
+# Lines that start with '#' are comments.
+# IntelliJ IDEA Project files
 .idea
-*.iws
 *.iml
+*/*.iml
 *.ipr
+*.iws
+out
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-/build/
+# Eclipse Project files
+.classpath
+.project
+.settings/
 
-### VS Code ###
-.vscode/
+bin/
+gen/
+local.properties
+
+.DS_Store
+Thumbs.db
+
+*.bak
+*.tem
+*.temp
+#.swp
+*.*~
+~*.*
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 ### Java template
 # Compiled class file
 *.class
@@ -52,6 +73,13 @@ HELP.md
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-/src/main/java/springcloud/springboot/mybatis/SpringbootMybatisApplication.java
+src/main/java/springcloud/springboot/mybatis/service/
+HELP.md
 src/main/resources/static/
 src/main/resources/templates/
+target/classes/application.yml
+target/classes/generator/
+target/classes/jdbc.properties
+target/classes/mapper/
+target/generated-sources/
+target/generated-test-sources/
