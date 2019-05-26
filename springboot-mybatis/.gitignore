@@ -1,67 +1,8 @@
-# Lines that start with '#' are comments.
-# IntelliJ IDEA Project files
-.idea
-*.iml
-*/*.iml
-*.ipr
-*.iws
-out
-
-# Eclipse Project files
-.classpath
-.project
-.settings/
-
-bin/
-gen/
-local.properties
-
-.DS_Store
-Thumbs.db
-
-*.bak
-*.tem
-*.temp
-#.swp
-*.*~
-~*.*
-
-# Compiled class file
+# Created by .ignore support plugin (hsz.mobi)
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-### Java template
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -69,17 +10,13 @@ hs_err_pid*
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
-src/main/java/springcloud/springboot/mybatis/service/
+.gitignore
+.idea/
 HELP.md
+springboot-mybatis.iml
+src/main/java/springcloud/springboot/mybatis/service/
 src/main/resources/static/
 src/main/resources/templates/
-target/classes/application.yml
-target/classes/generator/
-target/classes/jdbc.properties
-target/classes/mapper/
-target/generated-sources/
-target/generated-test-sources/
+target/
+"\344\277\256\346\224\271\344\272\206\345\276\210\345\244\232.patch"
